@@ -284,12 +284,21 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
+    .kanban-heading {
+        justify-content: end;
+    }
+
+    .kanban-heading-text,
+    .name-user {
+        display: none;
+    }
 
     .kanban {
         flex-direction: column;
         align-items: center;
     }
-    .column{
+
+    .column {
         margin-bottom: 60px;
     }
 }
